@@ -13,7 +13,6 @@ import java.net.URL;
 public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
         UserServicesImpl users = new UserServicesImpl();
         SpringApplication.run(Main.class, args);
         System.out.println(users.addUser(1,"Dumisani","Ngobeni"));
